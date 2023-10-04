@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body bgcolor="B5CB99">
+    <fieldset>
+        <legend>Personal Details </legend>
+    <form action="message.html">
+   <label for="name">First Name </label>
+   <input type="text"id="name"name="fname"><br><br>
+   <label for="mname">Middle Name </label>
+   <input type="text"id="mame"name="mname"><br><br>
+   <label for="lname">Last Name </label>
+   <input type="text"id="lname"name="lname"><br><br>
+   <label for="DOB">DOB </label>
+   <input type="dob"id="DOB"name="DOB"><br><br>
+   <label for="Email">Email</label>
+   <input type="email"id="Email"name="fna"><br><br>
+
+</fieldset>
+<fieldset>
+    <legend>Educational Details</legend>
+    <label for="dept">Department</label><br><br>
+
+    <input type="radio"id="cse"name="dept">
+    <label for="cse">CSE</label>
+    <input type="radio"id="CIVIL"name="dept">
+   <label for="CIVIL">CIVIL</label>
+   <input type="radio"id="MECH"name="dept">
+   <label for="MECH">MECH</label>
+   <input type="radio"id="EC"name="dept">
+   <label for="EC">EC</label><br><br>
+   
+   <label for="yop">Year Of Graduation</label>
+   <input list="yog"id="yop"name="yop">
+   <datalist id="yog">
+    <option>2015</option>
+    <option>2016</option>
+    <option>2017</option>
+    <option>2018</option>
+    <option>2019</option>
+    <option>2020</option>
+    <option>2021</option>
+    <option>2022</option>
+    <option>2023</option>
+
+
+    
+</datalist><br><br>
+<label for="Skills">Skills</label><br><br>
+<input type="checkbox"id="html"name="html">
+<label for="html">HTML</label>
+<input type="checkbox"id="CSS"name="CSS">
+<label for="CSS">CSS</label>
+<input type="checkbox"id="JAVASCRIPT"name="JAVASCRIPT">
+<label for="JAVASCRIPT">JAVASCRIPT</label>
+
+</fieldset>
+<fieldset>
+    <legend>Login</legend>
+<label for="uname">Username </label>
+<input type="text"id="uname"name="uname"pattern="[a-zA-Z][3,8]"><br><br>
+<label for="pname">Password</label>
+<input type="password"id="pname"name="pname"><br><br>
+<label for="pname">Contact Details</label>
+<input type="text"id="dname"name="dname"pattern="[6-9]{1}[0-9]{9}"><br><br>
+<label for="dname">Resume</label>
+<input type="file"id="dname"name="dname"><br><br>
+</fieldset>
+
+<input type=Submit></a>
+
+
+
+    </form>
+
+    
+</body>
+</html>
